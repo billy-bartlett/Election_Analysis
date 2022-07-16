@@ -1,21 +1,25 @@
 # Election_Analysis
 
 ## Project Overview
-A Colorado Board of Elections employee has given you the following tasks to complete the election audit of a recent local congressional election. 
+### Overview of Election Audit
+A Colorado Board of Elections employee asked me to perform analysis for an audit of a recent local congressional election. I was asked to deliver the following:
+1. The total votes cast in the congressional election.
+2. A breakdown of the number of votes and the percentage of total votes for each county in the precinct.
+3. The county with the largest number of votes.
+4. A breakdown of the number of votes and the percentage of the total votes each candidate received.
+5. Which candidate won the election, their vote count, and their percentage of the total votes.
 
-1. Calculate the total number of votes cast. 
-2. Get a complete list of candidates who received votes. 
-3. Calculate the total number of votes each candidate received. 
-4. Calculate the percentage of votes each candidate won. 
-5. Determine the winner of the election based on popular vote.
+## Election-Audit Results
+### County Results
+The turnout for each county was as follows: 
+- Jefferson County had 10.5% of the votes with 38,855 total votes. 
+- Denver County had 82.8% of the votes with 306,055 total votes. 
+- Arapahoe County had 6.7% of the votes with 24,801 total votes. 
 
-## Resources
-Data Source: election.results.csv
-Software: Python V 3.9.12, VS Code V 1.69.1
+**The county with the highest turnout was Denver County, which had 82.8% of the votes with 306,055 total votes.** 
 
-## Summary
-The analysis of the election shows that:
-- there were 367,711 votes cast in the election.
+### Voting Results
+The analysis of the election shows that there were 367,711 votes cast in the election.
 - The candidates were:
     - Charles Casper Stockham
     - Diana DeGette
@@ -24,9 +28,13 @@ The analysis of the election shows that:
     - Charles Casper Stockham received 23.0% of the votes and 85,213 total votes.
     - Diana DeGette received 73.8% of the votes and 272,892 total votes.
     - Raymon Anthony Doane received 3.1% of the votes and 11,606 total votes.
-- The winner of the election was:
-    - Diana DeGette, who received 73.8% of the votes and 272,892 total votes.
-  
-## Challenge Overview
 
-## Challenge Summary
+**The winner of the election was Diana DeGette, who received 73.8% of the votes and 272,892 total votes.**
+
+## Election-Audit Summary
+
+In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+
+## Resources
+Data Source: election.results.csv
+Software: Python V 3.9.12, VS Code V 1.69.1
